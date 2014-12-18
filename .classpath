@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="con" path="com.sag.gcc.plugins.wmtestsuite.runtime.WmTestSuiteContainer/1/1/0/C%3A%5CSoftwareAG%5Ccommon%5Clib%5Cwm-isclient.jar/0"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

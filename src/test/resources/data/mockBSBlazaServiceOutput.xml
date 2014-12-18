@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <record name="getBaselModelResponse" javaclass="com.wm.data.ISMemDataImpl">
+      <record name="ns:getBaselModelResponse" javaclass="com.wm.data.ISMemDataImpl">
+        <record name="clientRiskManagement" javaclass="com.wm.data.ISMemDataImpl">
+          <value name="baselModel">HIB Finance Model</value>
+        </record>
+      </record>
+    </record>
+  </record>
+</IDataXMLCoder>

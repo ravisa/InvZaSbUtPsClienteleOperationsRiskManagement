@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="wmTestSuite.xml">
+    <webMethodsTestCase name="privateBankAccount : Success">
+        <service folder="InvZaSbPsClienteleOperationsRiskManagement.services.v1" name="getBaselDecisionModel">
+            <input>
+                <file filename="src\test\resources\data\privateBankAccountInput.xml"/>
+            </input>
+            <expected>
+                <file filename="src\test\resources\data\privateBankAccountOutput.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase name="secured Loan with Building Bond Commercial Property : Success">
+        <service folder="InvZaSbPsClienteleOperationsRiskManagement.services.v1" name="getBaselDecisionModel">
+            <input>
+                <file filename="src\test\resources\data\SecuredLoanWithBuildingBondCommercialInput.xml"/>
+            </input>
+            <expected>
+                <file filename="src\test\resources\data\SecuredLoanWithBuildingBondCommercialOutput.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase name="secured Loan with Building Bond Residential Property : Success">
+        <service folder="InvZaSbPsClienteleOperationsRiskManagement.services.v1" name="getBaselDecisionModel">
+            <input>
+                <file filename="src\test\resources\data\SecuredLoanWithBuildingBondResidentialInput.xml"/>
+            </input>
+            <expected>
+                <file filename="src\test\resources\data\SecuredLoanWithBuildingBondResidentialOutput.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase name="Secured Loan No Building Bond Type Vacant Residential property Category : Success">
+        <service folder="InvZaSbPsClienteleOperationsRiskManagement.services.v1" name="getBaselDecisionModel">
+            <input>
+                <file/>
+            </input>
+            <expected>
+                <file/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase name="mockBSBlazeService : Success">
+        <mock folder="InvZaSbBsClienteleRiskManagement.services" name="getBaselModel">
+            <pipeline filename="src\test\resources\data\mockBSBlazaServiceOutput.xml"/>
+        </mock>
+        <service folder="InvZaSbPsClienteleOperationsRiskManagement.services.v1" name="getBaselDecisionModel">
+            <input>
+                <file/>
+            </input>
+            <expected>
+                <file/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase name="No output from Blaze : Error">
+        <service folder="InvZaSbPsClienteleOperationsRiskManagement.services.v1" name="getBaselDecisionModel">
+            <input>
+                <file filename="src\test\resources\data\errorInput.xml"/>
+            </input>
+            <expected>
+                <file filename="src\test\resources\data\errorOutput.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>

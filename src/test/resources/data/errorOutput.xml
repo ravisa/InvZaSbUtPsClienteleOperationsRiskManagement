@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <record name="getBaselDecisionModelPsResponse" javaclass="com.wm.data.ISMemDataImpl">
+      <record name="statusResponse" javaclass="com.wm.data.ISMemDataImpl">
+        <value name="statusType">ERROR</value>
+        <value name="statusCode">INV0000145</value>
+        <value name="statusResponse">No Results found for the specified inputs.</value>
+        <jboolean name="statusDisplay">true</jboolean>
+      </record>
+    </record>
+  </record>
+</IDataXMLCoder>

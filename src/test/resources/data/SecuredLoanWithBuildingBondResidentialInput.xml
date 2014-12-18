@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <record name="getBaselDecisionModelPsRequest" javaclass="com.wm.data.ISMemDataImpl">
+      <value name="facilityAmount">10000</value>
+      <value name="productCategory">Secured Loan</value>
+      <value name="buildingBond">Yes</value>
+      <value name="propertyCategory">Residential property</value>
+    </record>
+  </record>
+</IDataXMLCoder>

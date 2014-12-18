@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <record name="getBaselDecisionModelPsRequest" javaclass="com.wm.data.ISMemDataImpl">
+      <value name="facilityAmount">40000</value>
+      <value name="productCategory">Private Bank Account</value>
+    </record>
+  </record>
+</IDataXMLCoder>
